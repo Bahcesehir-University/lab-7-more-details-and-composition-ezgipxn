@@ -18,7 +18,7 @@ private:
     double y;
 public:
     // TODO 1: Constructor with member initializer list (double x, double y)
-    Point(double x, double y) : x(x), y(x) {}  // stub — fix initializer
+    Point(double x, double y) : x(x), y(y) {}  // stub — fix initializer
 
     // TODO 2: const getter for x
     double getX() const { return x; }   // stub — add const
