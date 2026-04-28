@@ -63,12 +63,11 @@ public:
         << ", Area: " << getArea() << "\n";
     }
     // TODO 11: declare isSameSize as friend function
-
 friend bool isSameSize();
 // TODO 12: implement isSameSize
 friend bool isSameSize(const Rectangle& r1, const Rectangle& r2) {
     return r1.getArea() == r2.getArea();  // stub
-}
+    }
 };
 
 class ConstDemo {
